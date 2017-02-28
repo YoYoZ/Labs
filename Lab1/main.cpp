@@ -14,6 +14,6 @@ int main(int argc, const char * argv[]) {
     cin>>dataIn;
     ab->setSurname(dataIn);
     ab -> getInfo();
-
+    
     return 0;
 }
