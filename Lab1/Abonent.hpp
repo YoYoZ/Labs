@@ -70,4 +70,4 @@ public:
     int getTimetalking(){return timetalking;};
     
 };
-#endif /* Abonent_hpp */
+#endif 
