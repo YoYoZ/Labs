@@ -2,7 +2,7 @@
 //  ATC.hpp
 //  Lab2
 //
-//  Created by Anton Solyarik on 19.03.17.
+//  Created by Anton Solyarik on 13.03.17.
 //  Copyright © 2017 Anton Solyarik. All rights reserved.
 //
 

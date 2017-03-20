@@ -2,7 +2,7 @@
 //  main.cpp
 //  Lab2
 //
-//  Created by Anton Solyarik on 19.03.17.
+//  Created by Anton Solyarik on 13.03.17.
 //  Copyright © 2017 Anton Solyarik. All rights reserved.
 //
 
@@ -15,12 +15,13 @@ int main(int argc, const char * argv[]) {
     a->addUser("Anton","Solyarik","Sergeevich","Kiev","0635814472", 15, 1);
     a->addUser("Maksim","Solyarik","Vasiliyevich","Kiev","063581472", 1, 5);
     a->addUser("Denis","Solyarik","Sergeevich","Kiev","063581442", 4, 10);
-    cout<<"How would you like to find out shit about abonets?" << endl;
+    cout<<"How would you like to find out about abonets?" << endl;
     bool autom;
     cout<<"Type 1 for automatic test, 0 for manual use"<<endl;
     cin>>autom;
     if(autom)
     {
+        cout<<"test values: "<<endl<<"Number: 0635814472"<<endl<<"Overdraw and overtime amount: 5"<<endl;
         a->getDatabynumber("0635814472");
         a->getOverdraw(5);
         a->getOvertime(5);
