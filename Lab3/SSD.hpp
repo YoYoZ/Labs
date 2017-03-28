@@ -10,5 +10,16 @@
 #define SSD_hpp
 
 #include <stdio.h>
+#include "DataDevice.hpp"
 
+class SSD : public DataDevice
+{
+private:
+    string dataClusterType;
+public:
+    SSD(string name, string modelName, int size, string interface, string formFactor, string dataClusterType);
+    ~SSD(){};
+    void showSpecificData();
+    
+};
 #endif /* SSD_hpp */

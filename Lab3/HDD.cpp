@@ -7,3 +7,19 @@
 //
 
 #include "HDD.hpp"
+#include <string>
+
+using namespace std;
+
+HDD::HDD(string name, string modelName, int size, string interface, string formFactor, int speedOfSpindel) : DataDevice(name, modelName, size, interface, formFactor)
+{
+    this->speedOfSpindel = speedOfSpindel;
+}
+
+void HDD::showSpecificData()
+{
+   
+    cout<<"This is HDD, so here is speed of spindel: "<< speedOfSpindel<<endl;
+    cout<<"********************************************"<<endl;
+
+}

@@ -10,5 +10,16 @@
 #define HDD_hpp
 
 #include <stdio.h>
-
+#include <string>
+#include "DataDevice.hpp"
+using namespace std;
+class HDD : public DataDevice
+{
+private:
+    int speedOfSpindel;
+public:
+    HDD(string name, string modelName, int size, string interface, string formFactor, int speedOfSpindel);
+    ~HDD(){};
+    void showSpecificData();
+};
 #endif /* HDD_hpp */
