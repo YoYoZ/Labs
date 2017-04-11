@@ -26,9 +26,7 @@ int main(int argc, const char * argv[]) {
     cin>>inputdata[3];
     cout<<"Enter form factor"<<endl;
     cin>>inputdata[4];
-    cout<<"Is it SSD? "<<endl;
-    cin>>isSSD;
-    if(isSSD)
+    cout<<"Is it SSD "<<endl;
         cout<<"Enter type of data cell"<<endl;
     cin>>inputdata[5];
     SSD *unit3 = new SSD(inputdata[0],inputdata[1],size,inputdata[3],inputdata[4],inputdata[5]);
