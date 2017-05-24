@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		3D5555791EC8D66A00D12197 /* lab5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab5; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D55557C1EC8D66A00D12197 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3D5555841EC8D7EB00D12197 /* Deka.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Deka.hpp; sourceTree = "<group>"; };
+		3D5555871EC8D80900D12197 /* struct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = struct.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				3D55557C1EC8D66A00D12197 /* main.cpp */,
+				3D5555841EC8D7EB00D12197 /* Deka.hpp */,
+				3D5555871EC8D80900D12197 /* struct.hpp */,
 			);
 			path = lab5;
 			sourceTree = "<group>";
@@ -248,6 +252,7 @@
 				3D5555821EC8D66A00D12197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
