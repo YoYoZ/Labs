@@ -7,9 +7,25 @@
 //
 
 #include <iostream>
+#include "realMultiplication.hpp"
+#include <iostream>
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    realMultiplication r;
+    cout<<"Enter two double values to multiply; Beware -- overflowing will cast exception and show message"<<endl;
+    double d1, d2;
+    cin>>d1;
+    cin>>d2;
+    try
+    {
+        double temp = r.multiply(d1, d2);
+        cout<<"Successfull operation, here is your value "<<temp<<endl;
+    }
+    catch (std::string c)
+    {
+        cout << c;
+    }
     return 0;
 }
